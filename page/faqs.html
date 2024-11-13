@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Taxi</title>
+    <link rel="stylesheet" href="./../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="mx-3 bg">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand d-flex justify-content-center" href="./../index.html">
+              <img src="./../img/svg/logo.svg" width="50" height="50">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-white" aria-current="page" href="./../index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="./aboutUs.html">О компании</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="./faqs.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Услуги</a>
+                </li>
+              </ul>
+            </div>
+            <ul class="icons d-flex">
+              <li class="icon-item">
+                <a href="#">
+                  <img src="./../img/svg/search.svg" width="35" height="35" alt="">
+                </a>
+              </li>
+              <li class="icon-item">
+                <a href="./profile.html">
+                  <a href="./profile.html"><img src="./../img/svg/user.svg" width="35" height="35" alt=""></a>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+    <div class="FAQs container">
+
+        <h2 class="FAQs-title d-flex justify-content-center">FAQs</h2>
+
+        <div class="faq-drawer">
+            <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" /><label class="faq-drawer__title"
+                for="faq-drawer">Как заказать такси? </label>
+            <div class="faq-drawer__content-wrapper">
+                <div class="faq-drawer__content">
+                    <p>
+                        Вы можете заказать такси через наш веб-сайт, мобильное приложение или по телефону.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-drawer">
+            <input class="faq-drawer__trigger" id="faq-drawer-2" type="checkbox" /><label class="faq-drawer__title"
+                for="faq-drawer-2">Какова стоимость поездки</label>
+            <div class="faq-drawer__content-wrapper">
+                <div class="faq-drawer__content">
+                    <p>
+                        Стоимость поездки зависит от расстояния, времени в пути и типа автомобиля. Для предварительной
+                        оценки
+                        используйте наш калькулятор на сайте или в приложении. Обратите внимание на возможные
+                        дополнительные сборы
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-drawer">
+            <input class="faq-drawer__trigger" id="faq-drawer-3" type="checkbox" /><label class="faq-drawer__title"
+                for="faq-drawer-3">Как оплатить поездку?</label>
+            <div class="faq-drawer__content-wrapper">
+                <div class="faq-drawer__content">
+                    <p>
+                        Вы можете оплатить поездку наличными водителю или безналично через наше приложение. Мы принимаем
+                        кредитные и
+                        дебетовые карты, а также электронные кошельки. Выберите удобный способ оплаты при заказе. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-drawer">
+            <input class="faq-drawer__trigger" id="faq-drawer-4" type="checkbox" /><label class="faq-drawer__title"
+                for="faq-drawer-4">Как узнать, когда такси прибудет?</label>
+            <div class="faq-drawer__content-wrapper">
+                <div class="faq-drawer__content">
+                    <p>
+                        После оформления заказа вы получите уведомление с предполагаемым временем прибытия такси. Также
+                        вы сможете
+                        отслеживать местоположение автомобиля в реальном времени через приложение.
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-drawer">
+            <input class="faq-drawer__trigger" id="faq-drawer-5" type="checkbox" /><label class="faq-drawer__title"
+                for="faq-drawer-5">Что делать, если я забыл вещи в такси?</label>
+            <div class="faq-drawer__content-wrapper">
+                <div class="faq-drawer__content">
+                    <p>
+                        Если вы забыли вещи в такси, свяжитесь с нашей службой поддержки как можно скорее. Мы поможем
+                        вам вернуть
+                        забытые предметы, предоставив контактные данные водителя.
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-drawer">
+            <input class="faq-drawer__trigger" id="faq-drawer-6" type="checkbox" /><label class="faq-drawer__title"
+                for="faq-drawer-6">Как изменить или отменить заказ?</label>
+            <div class="faq-drawer__content-wrapper">
+                <div class="faq-drawer__content">
+                    <p>
+                        Вы можете изменить или отменить заказ через приложение в разделе "Мои поездки". Обратите
+                        внимание, что
+                        отмена может быть бесплатной или сопровождаться штрафом в зависимости от времени, прошедшего с
+                        момента
+                        заказа.
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-drawer">
+            <input class="faq-drawer__trigger" id="faq-drawer-6" type="checkbox" /><label class="faq-drawer__title"
+                for="faq-drawer-6">Как изменить или отменить заказ?</label>
+            <div class="faq-drawer__content-wrapper">
+                <div class="faq-drawer__content">
+                    <p>
+                        Вы можете изменить или отменить заказ через приложение в разделе "Мои поездки". Обратите
+                        внимание, что
+                        отмена может быть бесплатной или сопровождаться штрафом в зависимости от времени, прошедшего с
+                        момента
+                        заказа.
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-drawer">
+            <input class="faq-drawer__trigger" id="faq-drawer-6" type="checkbox" /><label class="faq-drawer__title"
+                for="faq-drawer-6">Как изменить или отменить заказ?</label>
+            <div class="faq-drawer__content-wrapper">
+                <div class="faq-drawer__content">
+                    <p>
+                        Вы можете изменить или отменить заказ через приложение в разделе "Мои поездки". Обратите
+                        внимание, что
+                        отмена может быть бесплатной или сопровождаться штрафом в зависимости от времени, прошедшего с
+                        момента
+                        заказа.
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-drawer">
+            <input class="faq-drawer__trigger" id="faq-drawer-6" type="checkbox" /><label class="faq-drawer__title"
+                for="faq-drawer-6">Как изменить или отменить заказ?</label>
+            <div class="faq-drawer__content-wrapper">
+                <div class="faq-drawer__content">
+                    <p>
+                        Вы можете изменить или отменить заказ через приложение в разделе "Мои поездки". Обратите
+                        внимание, что
+                        отмена может быть бесплатной или сопровождаться штрафом в зависимости от времени, прошедшего с
+                        момента
+                        заказа.
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-drawer">
+            <input class="faq-drawer__trigger" id="faq-drawer-6" type="checkbox" /><label class="faq-drawer__title"
+                for="faq-drawer-6">Как изменить или отменить заказ?</label>
+            <div class="faq-drawer__content-wrapper">
+                <div class="faq-drawer__content">
+                    <p>
+                        Вы можете изменить или отменить заказ через приложение в разделе "Мои поездки". Обратите
+                        внимание, что
+                        отмена может быть бесплатной или сопровождаться штрафом в зависимости от времени, прошедшего с
+                        момента
+                        заказа.
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-drawer">
+            <input class="faq-drawer__trigger" id="faq-drawer-6" type="checkbox" /><label class="faq-drawer__title"
+                for="faq-drawer-6">Как изменить или отменить заказ?</label>
+            <div class="faq-drawer__content-wrapper">
+                <div class="faq-drawer__content">
+                    <p>
+                        Вы можете изменить или отменить заказ через приложение в разделе "Мои поездки". Обратите
+                        внимание, что
+                        отмена может быть бесплатной или сопровождаться штрафом в зависимости от времени, прошедшего с
+                        момента
+                        заказа.
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-drawer">
+            <input class="faq-drawer__trigger" id="faq-drawer-6" type="checkbox" /><label class="faq-drawer__title"
+                for="faq-drawer-6">Как изменить или отменить заказ?</label>
+            <div class="faq-drawer__content-wrapper">
+                <div class="faq-drawer__content">
+                    <p>
+                        Вы можете изменить или отменить заказ через приложение в разделе "Мои поездки". Обратите
+                        внимание, что
+                        отмена может быть бесплатной или сопровождаться штрафом в зависимости от времени, прошедшего с
+                        момента
+                        заказа.
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-drawer">
+            <input class="faq-drawer__trigger" id="faq-drawer-6" type="checkbox" /><label class="faq-drawer__title"
+                for="faq-drawer-6">Как изменить или отменить заказ?</label>
+            <div class="faq-drawer__content-wrapper">
+                <div class="faq-drawer__content">
+                    <p>
+                        Вы можете изменить или отменить заказ через приложение в разделе "Мои поездки". Обратите
+                        внимание, что
+                        отмена может быть бесплатной или сопровождаться штрафом в зависимости от времени, прошедшего с
+                        момента
+                        заказа.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

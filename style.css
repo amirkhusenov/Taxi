@@ -1,0 +1,237 @@
+body {
+  background-color: #121212 !important;
+  color: #fff !important;
+}
+
+ul,
+li {
+  list-style: none;
+}
+button a {
+  text-decoration: none;
+  color: #121212;
+  }
+
+.header {
+  background-image: url(./img/png/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.title {
+  font-size: 80px;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.hero-content {
+  margin-top: 15%;
+}
+
+.reviews {
+  margin-top: 120px;
+}
+
+.reviews-title {
+  font-size: 68px;
+}
+
+.reviews-cards__item {
+  width: 450px;
+  height: 200px;
+  background-color: #191919;
+}
+
+.FAQs {
+  margin-top: 120px;
+}
+
+.FAQs-title {
+  font-size: 68px;
+}
+
+.faq-drawer {
+  margin-bottom: 30px;
+}
+
+.faq-drawer__content-wrapper {
+  line-height: 1.4em;
+  max-height: 0px;
+  overflow: hidden;
+  transition: 0.25s ease-in-out;
+  padding-top: 15px;
+}
+
+.faq-drawer__title {
+  border-top: #d9d9d9 1px solid;
+  cursor: pointer;
+  display: block;
+  font-size: 1.25em;
+  font-weight: 700;
+  padding: 30px 0 0 0;
+  position: relative;
+  margin-bottom: 0;
+  transition: all 0.25s ease-out;
+}
+
+.faq-drawer__title::after {
+  border-style: solid;
+  border-width: 1px 1px 0 0;
+  content: " ";
+  display: inline-block;
+  float: right;
+  height: 10px;
+  left: 2px;
+  position: relative;
+  right: 20px;
+  top: 2px;
+  transform: rotate(135deg);
+  transition: 0.35s ease-in-out;
+  vertical-align: top;
+  width: 10px;
+}
+
+.faq-drawer__title:hover {
+  color: #4E4B52;
+}
+
+.faq-drawer__trigger:checked+.faq-drawer__title+.faq-drawer__content-wrapper {
+  max-height: 350px;
+}
+
+.faq-drawer__trigger:checked+.faq-drawer__title::after {
+  transform: rotate(-45deg);
+  transition: 0.25s ease-in-out;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 80px;
+  }
+}
+
+.services {
+  margin-top: 120px;
+}
+
+.services-title,
+.registrations-title {
+  font-size: 68px;
+}
+
+.registrations {
+  margin-top: 120px;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border-radius: #FDE047;
+}
+
+.site-footer {
+  background-color: #191919;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5
+}
+
+.site-footer hr.small {
+  margin: 20px 0
+}
+
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px
+}
+
+.site-footer a {
+  color: #737373;
+}
+
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none
+}
+
+.footer-links li {
+  display: block
+}
+
+.footer-links a {
+  color: #737373
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.footer-links.inline li {
+  display: inline-block
+}
+
+@media (max-width:991px) {
+  .site-footer [class^=col-] {
+    margin-bottom: 30px
+  }
+}
+
+@media (max-width:767px) {
+  .site-footer {
+    padding-bottom: 0
+  }
+
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center
+  }
+}
+
+
+.container-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Стили для формы */
+.registration-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #191919;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.btn-authorization {
+  
+}
